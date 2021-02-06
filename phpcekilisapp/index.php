@@ -8,15 +8,15 @@
 	<body>
 		<div class="ic">
 			<form id="update" method="post"> 
-				Kazanan sayısı<br/><input name="kazanacak_sayisi" onkeypress='return event.charCode >= 48 && event.charCode <= 57' type="number" /><br/><br/>
+				Kazanan sayısı:<br/><input name="kazanacak_sayisi" onkeypress='return event.charCode >= 48 && event.charCode <= 57' type="number" /><br/><br/>
 				<span id="unique"><input name="unique" type="checkbox" style="width:22px;" unchecked>Tekrar eden katılımcılar çıkarılsın mı ?<br></span>
 				<small id="help-unique"><i>Eğer bir katılımcının birden fazla çekiliş hakkı varsa bu seçeneği işaretlemeyin. Katılımcının adı ne kadar çok yazılmışsa o kadar kazanma hakkı olur.</i></small><br>
 				<span id="multi"><input name="multi" type="checkbox" style="width:22px;" unchecked>Katılımcılar birden fazla hediye kazansın mı ?<br></span>
 				<small id="help-multi"><i>Bir katılımcının birden fazla hediye kazanmasını istiyorsanız bu seçeneği işaretleyin.</i></small><br>
-				Katılımcılar(Alt alta girin)<br/>
+				Katılımcılar(Alt alta giriniz):<br/><br>
 
 				<textarea name="katilimcilar"></textarea><br/>
-				<input id="check_ok" class="buton" type="button" value="Başlat" />
+				<input id="check_ok" class="buton" type="button" value="Başlat" style="width: 400px;height: 40px"/>
 			</form>
         
 			<div id="result">
